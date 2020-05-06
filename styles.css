@@ -94,7 +94,7 @@ nav:hover {
 }
 
 /* Secton Columns Styling */
-.content-columns {
+.contentcolumns {
   display: flex;
   flex-flow: row wrap;
 }
@@ -102,17 +102,17 @@ nav:hover {
   flex: 1;
   margin: 5px;
 }
-.content-columns .content:first-child, .content-columns .content:last-child {
+.contentcolumns .content:first-child, .contentcolumns .content:last-child {
   margin-top: 24px;
 }
-.content-columns .content:nth-child(3), .content-columns .content:last-child li {
+.contentcolumns .content:nth-child(3), .contentcolumns .content:last-child li {
   border: 5px outset yellow;
   padding: 10px;
   background-color: #c2e89b;
   transition: 0.5s ease-in-out;
   transform: scale(0.98, 0.98);
 }
-.content-columns h2 {
+.contentcolumns h2 {
   margin: 0;
   background-color: #48dff0;
   padding: 10px;
@@ -121,7 +121,7 @@ nav:hover {
   text-align: center;
 }
 /* Column 1 */
-.content-columns .content:first-child {
+.contentcolumns .content:first-child {
   margin-left: 10px;
   font-size: 18px;
 }
@@ -145,7 +145,7 @@ nav:hover {
   padding: 5px 0;
 }
 /* Column 3 */
-.content-columns .content:last-child li:hover {
+.contentcolumns .content:last-child li:hover {
   border: 5px ridge yellow;
   transition: 0.5s ease-in-out;
   transform: scale(1, 1);
@@ -429,11 +429,11 @@ footer a:hover {
     padding-right: 10px;
   }
   /* Content Columns */
-  .content-columns .content {
+  .contentcolumns .content {
     margin-bottom: 5px;
     flex-basis: 40%;
   }
-  .content-columns .content h2  {
+  .contentcolumns .content h2  {
     font-size: 30px;
   }
   .content:first-child p {
@@ -492,7 +492,7 @@ footer a:hover {
     font-size: 13px;
   }
   /* Content Styling */
-  .content-columns .content {
+  .contentcolumns .content {
     flex-basis: 50%;
   }
   .content:first-child p {
@@ -560,7 +560,7 @@ footer a:hover {
     font-size: 14px;
   }
   /* Content Columns */
-  .content-columns .content {
+  .contentcolumns .content {
     flex-basis: 50%;
   }
   /* Images Styling */
@@ -611,10 +611,10 @@ footer a:hover {
     font-size: 10px;
   }
   /* Content Columns */
-  .content-columns .content {
+  .contentcolumns .content {
     flex-basis: 50%;
   }
-  .content-columns .content h2  {
+  .contentcolumns .content h2  {
     font-size: 35px;
   }
   .content:first-child p, .content:nth-child(3) dd  {
@@ -624,7 +624,7 @@ footer a:hover {
   /* Footer Styling */
   footer li {
     padding-left: 20px;
-    font-size: 20px;
+    font-size: 18px;
   }
   /* Images Styling */
   .content:first-child .images img {
