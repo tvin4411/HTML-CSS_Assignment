@@ -154,14 +154,12 @@ nav:hover {
   list-style: square outside url("Images/bullet_green.png");
   margin-left: 20px;
 }
-.content:last-child li p:first-of-type {
-  margin: 5px 0;
-}
 .content li #NewsHead1, .content li #NewsHead2, .content li #NewsHead3 {
-  font-size: 25px;
+  font-size: 23px;
   text-decoration: underline;
 }
-.content:last-child li p {
+.content:last-child li blockquote {
+  margin: 5px 0;
   font-style: italic;
 }
 .content:last-child li #NewsRef1, .content:last-child li #NewsRef2, .content:last-child li #NewsRef3 {
